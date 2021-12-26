@@ -6,6 +6,7 @@ import FeedbackList from "./components/FeedbackList";
 import FeedbackStats from "./components/FeedbackStats";
 import FeedbackForm from "./components/FeedbackForm";
 import AboutPage from "./pages/AboutPage";
+import {FeedbackProvider} from "./context/FeedbackContext";
 import AboutIconLink from "./components/AboutIconLink";
 import FeedbackData from './data/FeedbackData';
 
@@ -24,6 +25,7 @@ const deleteFeedback = (id) => {
 }
    
     return (
+        <FeedbackProvider>
         <Router>
         <Header/>
         <div className="container">
@@ -31,11 +33,11 @@ const deleteFeedback = (id) => {
             <Route exact path='/' element={
                 <>
                 <FeedbackForm handleAdd={addFeedback}/>
-                <FeedbackStats feedback={feedback}/>
-                <FeedbackList feedback={feedback} handleDelete={deleteFeedback}/>
+                <FeedbackStats/>
+                <FeedbackList handleDelete={deleteFeedback}/>
                 
-                </>
-            }> 
+                </> 
+            }>
             
             </Route>
             <Route path='/about' element={<AboutPage/>}/>
@@ -43,6 +45,7 @@ const deleteFeedback = (id) => {
             <AboutIconLink/>
         </div>
         </Router>
+        </FeedbackProvider>
     )
 }
 
