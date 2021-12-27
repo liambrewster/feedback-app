@@ -16,7 +16,7 @@
       "text": "This is the third feedback from the DB JSON file"
     },
     {
-      "id": "4",
+      "id": 4,
       "rating": "10",
       "text": "howdy partner, how are you doing?"
     }
