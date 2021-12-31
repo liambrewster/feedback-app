@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+<img src="https://github.com/liambrewster/liambrewster/blob/main/image/LB%20Dev%20Logo.png" width="150" height="150">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Feedback App made using create-react-app
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). but as part of my udemy course with Brad Traversy
 
 ## Available Scripts
 
