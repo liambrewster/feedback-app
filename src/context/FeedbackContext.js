@@ -22,7 +22,7 @@ export const FeedbackProvider = ({children}) => {
     }
 
 
-    // this will add in the feedback
+    // ADD - the Feedback
     const addFeedback = async (newFeedback) => {
       const response = await fetch('/feedback', {
         method: 'POST',
@@ -36,13 +36,13 @@ export const FeedbackProvider = ({children}) => {
   
       setFeedback([data, ...feedback])
     }
-    // this will update in the feedback
+    // UPDATE - the feedback
     const updateFeedback = (id,updItem) => {
       setFeedback(
         feedback.map((item) => (item.id === id ? { ...item, ...updItem } : item))
       )
     }
-    //this will delete the feedback item
+    //Delete - the feedback
     const deleteFeedback = (id) => {
         if(window.confirm('Are You Sure You Want To Delete?')){
             setFeedback(feedback.filter((item) => item.id !== id))
