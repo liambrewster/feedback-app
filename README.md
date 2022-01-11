@@ -1,25 +1,56 @@
 <img src="https://github.com/liambrewster/liambrewster/blob/main/image/LB%20Dev%20Logo.png" width="150" height="150">
 
-# React Feedback App made using create-react-app
+# Feedback App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). but as part of my udemy course with Brad Traversy
+Feedback App is from the React Front To Back 2022 course by Brad Traversy on Udemy. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+It allows users to add, update and delete feedback. It uses a mock REST api with json-server.
+
+This project goes over all of the fundamentals of React including...
+
+Components
+JSX
+Props (proptypes, defaultprops, etc)
+State (Component & App Level)
+Styling
+Handling Events
+Lists & Keys
+Forms
+Context API
+HTTP Requests
+
+## Installation
+
+if you dont have the project already, from your terminal:
+
+```bash
+git clone https://github.com/liambrewster/feedback-app.git
+```
+
+> This Command will copy a full project to your local environment
+
+Install the node modules with:
+
+```bash
+npm install feedback-app
+```
+
+or from within your package.json file open the terminal and run
+
+```bash
+npm install
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. this will also rung the JSON Server on [http://localhost:5000](http://localhost:5000)
 
-The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -31,42 +62,20 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Badges
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img alt="Code Climate issues" src="https://img.shields.io/codeclimate/issues/liambrewster/feedback-app">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/liambrewster/feedback-app">
+<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/liambrewster/feedback-app">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Images
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="https://github.com/liambrewster/feedback-app/blob/main/src/components/assets/screenshot.png" >
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Roadmap
 
-## Learn More
+This is a completed project for the course, so no further developmetn will be made on this unless used for testing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Status
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Complete
